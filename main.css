@@ -1,0 +1,131 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #f3f1f1; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-right: 1px solid rgb(194, 194, 194);
+}
+
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+    
+}
+.sidenav img{
+    height: 25px;
+}
+
+
+.sidenav a:hover {
+    color: #0059ff;
+}
+
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+.text_info{
+    margin-left: 170px;
+}
+
+
+.img_info{
+    margin-left: 170px;
+}
+.img_info img{
+    align-items: center;
+    display: inline;
+    
+}
+
+.img_info1 img{
+    align-items: center;
+    display: inline;
+    
+}
+
+.licenses {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.licenses a{
+    text-decoration: none;
+}
+.licenses a:hover{
+    text-decoration: underline;
+}
+
+.news{
+    margin-left: 170px;
+    margin-bottom: 10px;
+    
+}
+
+
+.contact{
+    margin-top: 20px;
+    width: 200px;
+}
+.contact p{
+    margin: 0;
+    
+    
+}
+.text_news{
+    margin-top: 10px;
+}
+
+.text_news p{
+    line-height: 1.3;
+}
+
+
+#currency-calculator {
+    margin-left: 170px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+
+input, button {
+    padding: 5px;
+    margin: 5px 0;
+    width: 170px;
+
+}
+ 
+#result {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
